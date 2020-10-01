@@ -2,18 +2,165 @@
   "comuni": [
     {
       "id": 1,
-      "title": "L'Aquila"
+      "title": "L'Aquila",
+      "reductions": [
+        {
+          "id": 1,
+          "label": "Manifesti riguardanti lo Stato e gli enti pubblici territoriali (Art. 20)",
+          "percentage": "50"
+        },
+        {
+          "id": 2,
+          "label": "Manifesti di comitati, associazioni, fondazioni senza scopo di lucro (Art. 20)",
+          "percentage": "50"
+        },
+        {
+          "id": 3,
+          "label": "Manifesti relativi ad attività politiche, sindacali e di categoria, culturali, sportive... (Art. 20)",
+          "percentage": "50"
+        }
+      ],
+      "exemptions": [
+        {
+          "id": 1,
+          "label": "i manifesti riguardanti le attività e le funzioni istituzionali del Comune, da esso svolte in via esclusiva, esposti nell'ambito del proprio territorio"
+        },
+        {
+          "id": 2,
+          "label": "i manifesti dell'autorità di polizia in materia di pubblica sicurezza"
+        },
+        {
+          "id": 3,
+          "label": "i manifesti concernenti corsi scolastici e professionali gratuiti, regolarmente autorizzati."
+        },
+      ],
+      "zone": [
+        {
+          "id": "1",
+          "name": "centro"
+        },
+        {
+          "id": "2",
+          "name": "torrione"
+        }
+        
+      ],
+      "formats": [
+        {
+          "id": 1,
+          "label": "70x100",
+          "direction": "portrait"
+        }
+      ]
     },
     {
       "id": 2,
-      "title": "Teramo"
+      "title": "Teramo",
+      "reductions": [
+        {
+          "id": 1,
+          "label": "Manifesti riguardanti lo Stato e gli enti pubblici territoriali (Art. 20)",
+          "percentage": "50"
+        },
+        {
+          "id": 2,
+          "label": "Manifesti di comitati, associazioni, fondazioni senza scopo di lucro (Art. 20)",
+          "percentage": "50"
+        },
+        {
+          "id": 3,
+          "label": "Manifesti relativi ad attività politiche, sindacali e di categoria, culturali, sportive... (Art. 20)",
+          "percentage": "50"
+        }
+      ],
+      "exemptions": [
+        {
+          "id": 1,
+          "label": "i manifesti riguardanti le attività e le funzioni istituzionali del Comune, da esso svolte in via esclusiva, esposti nell'ambito del proprio territorio"
+        },
+        {
+          "id": 2,
+          "label": "i manifesti dell'autorità di polizia in materia di pubblica sicurezza"
+        },
+        {
+          "id": 3,
+          "label": "i manifesti concernenti corsi scolastici e professionali gratuiti, regolarmente autorizzati."
+        },
+      ],
+      "zone": [
+        {
+          "id": "1",
+          "name": "centro"
+        },
+        {
+          "id": "2",
+          "name": "zona alta"
+        }
+        
+      ],
+      "formats": [
+        {
+          "id": 1,
+          "label": "70x100",
+          "direction": "portrait"
+        }
+      ]
     },
     {
       "id": 3,
-      "title": "Chieti"
+      "title": "Chieti",
+      "reductions": [
+        {
+          "id": 1,
+          "label": "Manifesti riguardanti lo Stato e gli enti pubblici territoriali (Art. 20)",
+          "percentage": "50"
+        },
+        {
+          "id": 2,
+          "label": "Manifesti di comitati, associazioni, fondazioni senza scopo di lucro (Art. 20)",
+          "percentage": "50"
+        },
+        {
+          "id": 3,
+          "label": "Manifesti relativi ad attività politiche, sindacali e di categoria, culturali, sportive... (Art. 20)",
+          "percentage": "50"
+        }
+      ],
+      "exemptions": [
+        {
+          "id": 1,
+          "label": "i manifesti riguardanti le attività e le funzioni istituzionali del Comune, da esso svolte in via esclusiva, esposti nell'ambito del proprio territorio"
+        },
+        {
+          "id": 2,
+          "label": "i manifesti dell'autorità di polizia in materia di pubblica sicurezza"
+        },
+        {
+          "id": 3,
+          "label": "i manifesti concernenti corsi scolastici e professionali gratuiti, regolarmente autorizzati."
+        },
+      ],
+      "zone": [
+        {
+          "id": "1",
+          "name": "centro"
+        },
+        {
+          "id": "2",
+          "name": "scalo"
+        }
+        
+      ],
+      "formats": [
+        {
+          "id": 1,
+          "label": "70x100",
+          "direction": "portrait"
+        }
+      ]
     }
   ],
-  "formati": [
+  "formats": [
     {
       "id": "1",
       "label": "70x100",
@@ -24,5 +171,37 @@
       "label": "100x70",
       "direction": "landscape"
     }
-  ]
+  ],
+  "reductions": [
+      {
+        "id": 1,
+        "label": "Manifesti riguardanti lo Stato e gli enti pubblici territoriali (Art. 20)",
+        "percentage": "50"
+      },
+      {
+        "id": 2,
+        "label": "Manifesti di comitati, associazioni, fondazioni senza scopo di lucro (Art. 20)",
+        "percentage": "50"
+      },
+      {
+        "id": 3,
+        "label": "Manifesti relativi ad attività politiche, sindacali e di categoria, culturali, sportive... (Art. 20)",
+        "percentage": "50"
+      },
+    ],
+    "exemptions": [
+      {
+        "id": 1,
+        "label": "i manifesti riguardanti le attività e le funzioni istituzionali del Comune, da esso svolte in via esclusiva, esposti nell'ambito del proprio territorio"
+      },
+      {
+        "id": 2,
+        "label": "i manifesti dell'autorità di polizia in materia di pubblica sicurezza"
+      },
+      {
+        "id": 3,
+        "label": "i manifesti concernenti corsi scolastici e professionali gratuiti, regolarmente autorizzati."
+      },
+    ]
+
 }
