@@ -1,15 +1,28 @@
 {
-  "posts": [
+  "comuni": [
     {
       "id": 1,
-      "title": "hello"
+      "title": "L'Aquila"
     },
     {
       "id": 2,
-      "title": "hello2"
+      "title": "Teramo"
+    },
+    {
+      "id": 3,
+      "title": "Chieti"
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "formati": [
+    {
+      "id": "1",
+      "label": "70x100",
+      "direction": "portrait"
+    },
+    {
+      "id": "2",
+      "label": "100x70",
+      "direction": "landscape"
+    }
+  ]
 }
