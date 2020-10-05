@@ -134,6 +134,52 @@
                     "descrizione": "i manifesti concernenti corsi scolastici e professionali gratuiti, regolarmente autorizzati."
                 }
             ]
+        },
+        ,
+        {
+            "id": 4,
+            "title": "Pescara",
+            "zone": [
+                {
+                    "id": "1",
+                    "nome": "centro"
+                },
+                {
+                    "id": "2",
+                    "nome": "lungomare"
+                }
+            ],
+            "riduzioni": [
+                {
+                    "id": 1,
+                    "descrizione": "Manifesti riguardanti lo Stato e gli enti pubblici territoriali (Art. 20)",
+                    "percentuale": "50"
+                },
+                {
+                    "id": 2,
+                    "descrizione": "Manifesti di comitati, associazioni, fondazioni senza scopo di lucro (Art. 20)",
+                    "percentuale": "50"
+                },
+                {
+                    "id": 3,
+                    "descrizione": "Manifesti relativi ad attività politiche, sindacali e di categoria, culturali, sportive... (Art. 20)",
+                    "percentuale": "50"
+                }
+            ],
+            "esenzioni": [
+                {
+                    "id": 1,
+                    "descrizione": "i manifesti riguardanti le attività e le funzioni istituzionali del Comune, da esso svolte in via esclusiva, esposti nell'ambito del proprio territorio"
+                },
+                {
+                    "id": 2,
+                    "descrizione": "i manifesti dell'autorità di polizia in materia di pubblica sicurezza"
+                },
+                {
+                    "id": 3,
+                    "descrizione": "i manifesti concernenti corsi scolastici e professionali gratuiti, regolarmente autorizzati."
+                }
+            ]
         }
     ],
     "formati": [
@@ -175,6 +221,31 @@
         {
             "id": 3,
             "descrizione": "i manifesti concernenti corsi scolastici e professionali gratuiti, regolarmente autorizzati."
+        }
+    ],
+    "commissione": [
+        {
+            "id": 1,
+            "codice": 1234,
+            "dataRichiesta": "01/01/2021",
+            "testata": {
+                "contribuente": {
+                    "codiceFiscale": "plnfba80c45621",
+                    "partitaIva": "",
+                    "tipoSoggetto": "fisico",
+                    "nome": "Mario",
+                    "cognome": "Rossi",
+                    "ragioneSociale": "",
+                    "toponimo": "via",
+                    "via": "Roma",
+                    "civico": "1",
+                    "citta": "L'Aquila",
+                    "cap": "67100",
+                    "siglaProvincia": "AQ"
+                },
+                "messaggio": "messaggio di prova",
+                "urgente": false
+            }
         }
     ]
 }
